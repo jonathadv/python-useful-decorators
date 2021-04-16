@@ -1,0 +1,6 @@
+[run]
+branch = True
+source = module
+
+[report]
+fail_under = 95
