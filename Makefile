@@ -50,6 +50,10 @@ isort:
 format:
 	pipenv run black $(MODULE_NAME) $(TEST_DIR)
 
+# Check formatting with black
+format-check:
+	pipenv run black --check $(MODULE_NAME) $(TEST_DIR)
+
 
 # Upload dist content to test.pypi.org
 upload-test:

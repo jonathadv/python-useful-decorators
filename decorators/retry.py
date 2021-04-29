@@ -9,6 +9,7 @@ from typing import Union, List, Tuple, Type, Callable
 
 class RetryError(Exception):
     """Base Exception for the Retry module"""
+
     def __init__(self, *args, problems: List, **kwargs):
         super().__init__(*args, **kwargs)
         self.problems = problems or []
