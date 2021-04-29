@@ -6,11 +6,10 @@ verify_ssl = true
 [packages]
 
 [dev-packages]
-pytest = "*"
-"pytest-mock" = "*"
-pytest-cov = "*"
-pytest-pspec = "*"
-pylint = "*"
-isort = "*"
+pytest = "~=6.2.3"
+"pytest-mock" = "~=3.6.0"
+pytest-cov = "~=2.11.1"
+pytest-pspec = ">=0.0.4"
+pylint = "~=2.8.2"
 black = "==20.8b1"
 
