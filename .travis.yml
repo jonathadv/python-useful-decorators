@@ -5,5 +5,8 @@ python:
     - "3.8"
     - "3.9"
 
+install:
+    - make install-dev
+
 script:
     - make format-check lint test-cov
